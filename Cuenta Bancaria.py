@@ -11,6 +11,6 @@
             self.saldo -= monto
     def mostrar_saldo(self):
         print(self.saldo)
- cuenta = CuentaBancaria("Carlos", 1000)
+cuenta = CuentaBancaria("Carlos", 1000)
  cuenta.depositar(500)
  cuenta.mostrar_saldo()
