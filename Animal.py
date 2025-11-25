@@ -1,4 +1,4 @@
- class Animal:
+class Animal:
     def __init__(self, nombre):
         self.nombre = nombre
     def hablar(self): pass
@@ -6,5 +6,5 @@
     def hablar(self): return "Guau!"
  class Gato(Animal):
     def hablar(self): return "Miau!"
- perro = Perro("Firulais")
- print(perro.hablar())
+perro = Perro("Firulais")
+print(perro.hablar())
